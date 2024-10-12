@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Inter Tight';
+  src: url("fonts/Inter_Tight/InterTight-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url("fonts/Inter/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.heading {
+  font-family: 'Inter Tight';
+  font-size: 24pt;
+  color: #fe8019;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Inter Tight';
+  font-size: 36pt;
+  color: #fe8019;
+}
+
+.basic {
+  font-family: 'Inter';
+  color: #d5c4a1;
+  text-align: justify;
+}
+
+.content-left {
+  width: 65%;
+}
+
+.card {
+  margin-right: 20px;
+  background-color: #1d2021;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.content-right {
+  width: 35%;
+}
+
+.content {
+  display: flex;
+  margin: 30px;
+}
+
+a {
+  font-family: 'Inter';
+  font-weight: bold;
+  color: #98971a;
+  font-size: 20px;
+  margin-inline: 10%;
+}
+#link-header {
+  text-align: center;
+}
+
+.avatar {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #665c54;
+}
